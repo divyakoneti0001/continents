@@ -1,9 +1,13 @@
 # Continents data
-## Fully responsive website displaying continents data with a PWA score of 94 which is calculated using Lighthouse tool.
+##### Fully responsive website displaying continents data with a PWA score of 94 which is calculated using Lighthouse tool.
 
-1.npm install : Run the command to download all dependencies 
-2.npm run build : To generate the build 
-3.serve . : To run on localhost/5000
+<br>
+<ol>
+  <li>npm install : Run the command to download all dependencies </li>
+  <li>npm run build : To generate the build</li>
+  <li> serve . : To run on localhost/5000 </li>
+</ol>
+<br>
 
 
 
