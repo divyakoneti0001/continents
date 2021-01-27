@@ -1,0 +1,31 @@
+  .continent-line{
+    cursor: pointer;
+  }
+
+
+  .continent-line .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: rgba(190, 186, 186, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .continent-line:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+  .continent-name{
+    width : 70%;
+  }
+  
+  .country-search{
+  
+   width : 30%;
+  }
+  

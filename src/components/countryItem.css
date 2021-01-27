@@ -1,0 +1,51 @@
+.big-table {
+    display:none;
+}
+
+.mob-table{
+background-color: transparent;
+width : 100vw;
+height : 100vh;
+
+}
+
+.mob-table tr{
+    
+    
+    background-color:rgba(67, 83, 111, 0.67);
+    color:#d5cebd;
+    color:white;
+}
+.mob-screen{
+
+        height : 80vh;
+        margin-top: 10%;
+        overflow-x: scroll;
+
+}
+
+
+@media only screen and (min-width: 768px){
+    .big-table{
+       display: inline-table;
+    }
+
+    .mob-table{
+        display: none;
+    }
+
+    .big-screen{
+        height : 80vh;
+        margin-top: 5%;
+        overflow-x: scroll;
+    }
+
+    .mob-screen{
+        display: none;
+    }
+
+    .ui.table thead th{
+        background-color: #f9fafb6e;
+    }
+}
+
